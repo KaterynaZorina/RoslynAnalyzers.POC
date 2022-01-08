@@ -6,10 +6,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="AsyncFixer" Version="1.5.1">
-        <PrivateAssets>all</PrivateAssets>
-        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-      </PackageReference>
+      <Compile Remove="AsyncFixer\**" />
+      <EmbeddedResource Remove="AsyncFixer\**" />
+      <None Remove="AsyncFixer\**" />
+    </ItemGroup>
+
+    <ItemGroup>
       <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="6.0.0">
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -18,11 +20,6 @@
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="AsyncFixer" />
-      <Folder Include="VS.Threading.Analyzers" />
     </ItemGroup>
 
 </Project>
