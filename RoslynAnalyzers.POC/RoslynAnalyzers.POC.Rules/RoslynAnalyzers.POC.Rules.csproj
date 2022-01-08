@@ -24,7 +24,6 @@
       <Folder Include="AsyncFixer" />
       <Folder Include="Microsoft.CodeAnalysis\NetAnalyzers\Formatting\" />
       <Folder Include="Microsoft.CodeAnalysis\NetAnalyzers\Naming\" />
-      <Folder Include="Microsoft.CodeAnalysis\NetAnalyzers\Unnecessary code\" />
       <Folder Include="VS.Threading.Analyzers" />
     </ItemGroup>
 
