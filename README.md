@@ -1,1 +1,1 @@
-### A repo which contains usage of some base Roslyn Analyzer rules with examples
+### A repo which shows usage of some base Roslyn Analyzer rules with examples
