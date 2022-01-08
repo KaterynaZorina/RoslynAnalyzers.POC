@@ -22,7 +22,6 @@
 
     <ItemGroup>
       <Folder Include="AsyncFixer" />
-      <Folder Include="Microsoft.CodeAnalysis\NetAnalyzers\Naming\" />
       <Folder Include="VS.Threading.Analyzers" />
     </ItemGroup>
 
